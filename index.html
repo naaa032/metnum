@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Hehe
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>
+      Hehe
+    </h1>
+
+    <!-- METHOD -->
+
+    <div class="form-group">
+
+      <label>
+        Select Method
+      </label>
+
+        <select id="methodSelect">
+
+            <optgroup label="Pencarian Akar">
+
+              <option value="bisection">
+                Metode Bisection
+              </option>
+
+              <option value="falsePosition">
+                Metode False Position
+              </option>
+
+              <option value="newton">
+                Metode Newton-Raphson
+              </option>
+
+            </optgroup>
+
+            <optgroup label="Optimisasi">
+
+              <option value="golden">
+                Golden Section
+              </option>
+
+              <option value="fibonacci">
+                Fibonacci Search
+              </option>
+
+            </optgroup>
+
+            <optgroup label="Sistem Linear">
+
+              <option value="jacobi">
+                Metode Jacobi
+              </option>
+
+              <option value="gaussSeidel">
+                Metode Gauss-Seidel
+              </option>
+
+          </optgroup>
+
+</select>
+
+    </div>
+
+    <!-- FORM -->
+
+    <div id="formContainer"></div>
+
+    <!-- RESULT -->
+
+    <div id="resultContainer"></div>
+
+  </div>
+
+  <script
+    type="module"
+    src="app.js"
+  ></script>
+
+</body>
+
+</html>
